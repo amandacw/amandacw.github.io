@@ -3,47 +3,36 @@
 	box-sizing: border-box;
 }
 
-[class*="col-"]{
-	float: left;
-	padding: 15px;
-}
-
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
 
 body {
 	display: block;
 	width:100%;
 	float: left;
+	margin: 0;
 	margin-top: 0 auto;
 	margin-right: auto;
 	margin-bottom: 0 auto;
 	margin-left: auto;
 }
+
+header {
+	width: 100%;
+	margin: 0;
+	height: 200px;
+}
+.logo{
+	height: 130px;
+}
 .navbar {
 	display: inline-block;
-	width: 90%;
-	height: 25%;
-	margin-right: 5%;
-	margin-left: 5%;
-	margin-top: 2%;
-	margin-bottom: 2%;
+	width: 100%;
+	height: 70px;
 }
 
 ul {
 	display: block;
 	list-style-type: disc;
+	margin: 0;
 	margin-right: auto;
 	margin-left: auto;
 	-webkit-margin-before: 0px;
@@ -53,42 +42,63 @@ ul {
     -webkit-padding-start: 0px;
 }
 
-li {
+.navlinks li {
 	display: inline-block;
-	height: 100%;
-	width: 18%;
+	height: 40px;
+	width: 15%;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
 }
 
-.middlesection {
-	height: 60%;
-	width: 90%;
-	margin-right:auto;
-	margin-left: auto;
-}
-
-#homeimage {
+.mainimage {
 	display: inline-block;
-	height: 100%;
-	width:45%;
+	height: 500px;
+	width:100%;
 	text-align: center;
 	float: left;
 }
-#hometext {
+.fproduct {
 	display: inline-block;
-	height:100%;
-	width: 45%;
+	height:350px;
+	width: 100%;
 	text-align: center;
 	float: left;
 }
-
+.ourface {
+	display: inline-block;
+	height:400px;
+	width: 100%;
+	text-align: center;
+	float: left;
+}
 
 footer {
-	height: 15%;
+	display: inline-block;
+	width: 100%;	
+	height: 150px;
 }
 
-footer li {
+footer .corplinks {
+	width: 100%;
+	padding: 20px;
+	display: inline-block;
+}
+
+footer .sociallinks {
+	width: 40%;
+	padding: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	display: inline-block;
+}
+
+.sociallinks li {
+	display: inline-block;
+	width: 13.3%;
+	padding: 5px;
+
+}
+.corplinks li{
 	display: inline-block;
 }
