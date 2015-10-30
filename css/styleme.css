@@ -3,6 +3,11 @@
 	box-sizing: border-box;
 }
 
+.topimage img{
+	width: 100%;
+    max-width: 100%;
+    z-index: -9999;
+}
 
 body {
 	display: block;
@@ -20,43 +25,40 @@ header {
 	margin: 0;
 }
 
-.topimage{
-	width: 100%;
-    max-width: 100%;
-    z-index: -9999;
-}
-
 .navbar {
 	display: inline-block;
 	width: 100%;
-	height: 180px;
-	padding-top: 20px;
+	height: 120px;
+	margin: 0;
 }
 
 ul {
+	//*background-image: url("images/wdnav.jpg");
+	*//
+	background-color: white;
 	display: block;
-	list-style-type: disc;
+	height: 120px;
 	margin: 0;
 	font-family: 'courier new';
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
-	-webkit-margin-before: 0px;
-    -webkit-margin-after: 0px;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 0px;
+	padding: 0;
+}
+
+li {
+	padding-top: 40px;
 }
 
 .navlinks li {
 	display: inline-block;
-	height: 40px;
 	width: 10%;
+	color:black;
+	font-size: 15px
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
 }
-
 
 
 #logofont {
