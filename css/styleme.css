@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
 *
 {
 	box-sizing: border-box;
@@ -29,18 +31,16 @@ header {
 .navbar {
 	display: inline-block;
 	width: 100%;
-	height: 120px;
+	height: 100px;
 	margin: 0;
 }
 
 ul {
-	//*background-image: url("images/wdnav.jpg");
-	*//
-	background-color: white;
+	background-color: rgba(255,255,255,.8);
 	display: block;
-	height: 120px;
+	height: 100px;
 	margin: 0;
-	font-family: 'courier new';
+	font-family: 'Amatic SC', cursive;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
@@ -48,14 +48,14 @@ ul {
 }
 
 li {
-	padding-top: 40px;
+	padding-top: 40px ;
 }
 
 .navlinks li {
 	display: inline-block;
 	width: 10%;
-	color:black;
-	font-size: 15px
+	color: black;
+	font-size: 120%;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
@@ -63,12 +63,13 @@ li {
 
 
 #logofont {
-	font-family: 'courier new';
+	font-family:'pacifico';
 	width: 30%;
-	font-size: 40px;
+	font-size: 160%;
 	text-align:center;
 	margin: 0;
 	padding-top:10px;
+
 }
 
 #subtitle{
@@ -80,9 +81,12 @@ li {
 
 .married{
 	display: inline-block;
-	color: mediumspringgreen;
-	padding-right: 20%;
-	padding-top: 16%;
+	color: lightblue;
+	padding-right: 45%;
+	padding-top: 35%;
 	text-align: center;
 	float: right;
+	font-family: 'Amatic SC', cursive;
+	font-size: 100%;
+	line-heigt:	10%;
 }
