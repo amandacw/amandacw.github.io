@@ -3,29 +3,37 @@
 *
 {
 	box-sizing: border-box;
+	background: none repeat scroll 0% 0%;
 }
 
 .topimage img{
+	display: inline block;
 	width: 100%;
     max-width: 100%;
+    height: auto;
     z-index: -9999;
-    position: absolute;
+    clear: both;
+    box-shadow: 3px 3px 3px #999999; 
+	text-shadow: 0px -1px 0px rgba(255,255,255,.5);
+	margin-bottom: 90px;
 }
 
 body {
-	display: block;
+	margin:0;
 	width:100%;
-	float: left;
-	margin: 0;
-	margin-top: 0 auto;
-	margin-right: auto;
-	margin-bottom: 0 auto;
 	margin-left: auto;
+	background-color:white;
+	background-image: linear-gradient(90deg, rgba(177,198,210,.5) 50%, transparent 50%),
+	linear-gradient(rgba(177,198,210, .5) 50%, transparent 50%);
+	background-size:50px 50px;
+
 }
 
 header {
 	width: 100%;
 	margin: 0;
+	height: 100px;
+	clear: both;
 }
 
 .navbar {
@@ -40,11 +48,14 @@ ul {
 	display: block;
 	height: 100px;
 	margin: 0;
-	font-family: 'Amatic SC', cursive;
+	font-family:'Amatic SC', cursive;
+	font-weight: bolder;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
 	padding: 0;
+	box-shadow: 1px 1px 1px #999999; 
+	text-shadow: 0px -1px 0px rgba(255,255,255,.5);
 }
 
 li {
@@ -55,38 +66,48 @@ li {
 	display: inline-block;
 	width: 10%;
 	color: black;
-	font-size: 120%;
+	font-size: 110%;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
 }
 
+.navlinks a{
+	text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.navlinks a:hover{
+
+}
+
+.navlinks a:active {
+
+}
 
 #logofont {
 	font-family:'pacifico';
 	width: 30%;
-	font-size: 160%;
+	font-size: 100%;
 	text-align:center;
 	margin: 0;
 	padding-top:10px;
 
 }
 
-#subtitle{
-	text-align: center;
-	font-size: 20px;
-	margin: 0px;
-	font-family: 'brush script mt', cursive;
-}
-
-.married{
+#story {
 	display: inline-block;
-	color: lightblue;
-	padding-right: 45%;
-	padding-top: 35%;
+	margin-right: 10%;
+	margin-left: 10%;
+	width: 80%;
+	height: 90%;
+	background-color: black;
+	clear: both;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	border: solid white 15px;
+	box-shadow: 6px 6px 6px #999999; 
+	color: white;
 	text-align: center;
-	float: right;
-	font-family: 'Amatic SC', cursive;
-	font-size: 100%;
-	line-heigt:	10%;
 }
