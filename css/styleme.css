@@ -1,24 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
 @import url(https://fonts.googleapis.com/css?family=Amatic+SC);
-*
+body
 {
 	box-sizing: border-box;
-	background: none repeat scroll 0% 0%;
-}
-
-.topimage img{
-	display: inline block;
-	width: 100%;
-    max-width: 100%;
-    height: auto;
-    z-index: -9999;
-    clear: both;
-    box-shadow: 3px 3px 3px #999999; 
-	text-shadow: 0px -1px 0px rgba(255,255,255,.5);
-	margin-bottom: 90px;
-}
-
-body {
 	margin:0;
 	width:100%;
 	margin-left: auto;
@@ -29,22 +13,24 @@ body {
 
 }
 
-header {
-	width: 100%;
-	margin: 0;
-	height: 100px;
-	clear: both;
+header{ 
+    box-shadow: 2px 2px 2px #999999; 
 }
+
 
 .navbar {
-	display: inline-block;
+	display:inline-block;
+	background-image: url("images/wdnav.jpg");
+	clear: both;
 	width: 100%;
-	height: 100px;
 	margin: 0;
+	height: 100px;
+	box-shadow: 2px 2px 2px #999999; 
 }
 
+
+
 ul {
-	background-color: rgba(255,255,255,.8);
 	display: block;
 	height: 100px;
 	margin: 0;
@@ -54,19 +40,14 @@ ul {
 	margin-left: auto;
 	text-align: center;
 	padding: 0;
-	box-shadow: 1px 1px 1px #999999; 
-	text-shadow: 0px -1px 0px rgba(255,255,255,.5);
-}
-
-li {
-	padding-top: 40px ;
 }
 
 .navlinks li {
 	display: inline-block;
-	width: 10%;
-	color: black;
+	width: 14%;
+	color: white;
 	font-size: 110%;
+	padding-top: 35px;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
@@ -75,7 +56,7 @@ li {
 .navlinks a{
 	text-decoration: none;
     font-weight: bold;
-    color: black;
+    color: white;
 }
 
 .navlinks a:hover{
@@ -88,12 +69,20 @@ li {
 
 #logofont {
 	font-family:'pacifico';
-	width: 30%;
-	font-size: 100%;
+	width: 14%;
+	font-size: 110%;
 	text-align:center;
 	margin: 0;
-	padding-top:10px;
 
+}
+.topimage img{
+	display: inline-block;
+	float: left;
+	width: 100%;
+    max-width: 100%;
+    height: auto;
+    z-index: -9999;
+    box-shadow: 2px 2px 2px #999999; 
 }
 
 #story {
@@ -106,8 +95,9 @@ li {
 	clear: both;
 	margin-top: 5%;
 	margin-bottom: 5%;
-	border: solid white 15px;
-	box-shadow: 6px 6px 6px #999999; 
+		border: solid white 15px;
+		box-shadow: 6px 6px 6px #999999; 
 	color: white;
 	text-align: center;
 }
+
